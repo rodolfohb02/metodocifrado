@@ -1,0 +1,69 @@
+/* Estilo general del formulario */
+.form-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Título */
+  h2 {
+    text-align: center;
+    color: #3498db;
+  }
+  
+  /* Agrupación de elementos del formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo de las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo de los campos de entrada */
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de los botones */
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Agrupación de botones de cifrado y descifrado */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilo de los datos descifrados */
+  .decrypted-data {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,77 @@
+/* Fondo y estructura general */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Contenedor de contenido */
+.content-container {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  animation: fadeInContent 0.5s ease-out;
+}
+
+/* Animación de aparición del contenido */
+@keyframes fadeInContent {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Títulos */
+h2 {
+  color: #3498db;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+button {
+  background-color: #3498db;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Otros estilos generales */
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 100%;
+}
